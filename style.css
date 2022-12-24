@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+	font-family: "Lato",Arial,sans-serif;
+}
+.container{
+	height: 886px;
+	width: 1444px;
+	position: relative;
+	margin: 20px auto 0;
+	background-color: transparent;
+}
+.login{
+	height: 886px;
+	width: 722px;
+	position: relative;
+	background-color: white;
+	float: left;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.head{
+	height: 35px;
+	width: 300px;
+	position: absolute;
+	display: flex;
+	margin-left:111px;
+	margin-top: 50px;
+}
+.head p{
+	color: gray;
+}
+.head a{
+	text-indent: 4px;
+	text-decoration: none;
+}
+form{
+	height: 700px;
+	width: 500px;
+	margin: 162px 111px;
+	position: relative;
+}
+form h1{
+	font-size: 60px;
+	margin-bottom: 35px;
+}
+.Plorem{
+	margin-bottom: 80px;
+	color: gray;
+	line-height: 35px;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+form fieldset {
+  position: relative;
+  height: 75px;
+  width: 100%;
+	margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+input {
+	width: 100%;
+	height: 43px;
+	margin-bottom: 10px;
+	border: none;
+	background-color: transparent;
+	text-indent: 15px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+input:focus{
+	outline: none;
+}
+form input[type=submit]{
+	height: 50px;
+	background-color: blue;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+legend {
+  margin-left: 15px;
+  padding: 0px 5px;
+}
+.fa-solid {
+	position: absolute;
+	margin: 10px 10px 0px 460px;
+	font-size: 23px;
+	color: gray;
+}
+
+.Psignup{
+	text-align: center;
+	border-bottom: solid gray 1px;
+	line-height: 1px;
+	margin: 10px 0px 40px 0px;
+	color: gray;
+}
+form p span{
+	background-color: white;
+	padding: 0 5px;
+}
+
+.soucial {
+	position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.google, .facebook, .apple{
+	width: 30px;
+	height: 30px;	
+}
+ul{
+	list-style-type: none;
+	display: flex;
+}
+li{
+	border: solid gray 1px;
+	border-radius: 5px;
+	padding: 10px 30px 5px;
+}
+.li-apple{
+	position: absolute;
+	margin-left: 408px;
+}
+.li-facebook{
+	position: absolute;
+	margin-left: 204px;
+}
+.info{
+	height: 886px;
+	width: 722px;
+	position: relative;
+	background-color: blue;
+	float: right;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	opacity: 0.9;
+}
+.boxinfo{
+	position: absolute;
+	height: 550px;
+	width: 500px;
+	background-color:transparent;
+	margin-top:  250px;
+	margin-left: 111px;
+	border-left: solid 3px #5660ed;	
+}
+.background{
+	position: absolute;
+	height: 886px;
+	width: 722px;
+	display: inline;
+}
+.background img{
+	height: 886px;
+	width: 722px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.cama img{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	background-color: darkturquoise;
+	border-radius: 50%;
+	font-size: 10px;
+	margin-top: 164px;
+	margin-left: 84px;
+}
+
+.horizontal{
+	border-top: solid 3px #5660ed;
+	position: absolute;
+	width: 68px;
+	background-color: chartreuse;
+	margin-top: 600px;
+	margin-left: 111px;
+}
+.boxinfo h1{
+	font-size: 100px;
+	color: white;
+	margin-bottom: 100px;
+	margin-left: -20px;
+}
+.boxinfo p{
+	color: lightgray;
+	margin-left: 100px;
+	margin-bottom: 65px;
+	line-height: 25px;
+}
+.man-img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin-left: 100px;
+}
+.dl-div{
+	display: inline-block;
+	padding-top: 23px;
+	position: absolute;
+	margin-left: 10px;
+	color: white;
+}
+dt{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing:1px;
+}
+dd{
+	color: lightgray;
+}
